@@ -1,0 +1,68 @@
+@media (max-width: 419px) {
+        body{
+        width: 90%;
+        margin: auto;
+        }
+        .telaGd, .telaMd{
+            display: none;
+        }
+        .telaPq{
+            display: block;
+        }
+        section{
+            width: 90%;
+            float: left;
+            margin: auto;
+        }
+        section img{
+            max-width: 100%;
+        }
+}
+@media (min-width: 420px) {
+        body{
+        width: 90%;
+        margin: auto;
+        }
+        .telaGd, .telaPq{
+            display: none;
+        }
+        .telaMd{
+            display: block;
+        }
+        section{
+            width: 45%;
+            float: left;
+            margin: auto 2.5%;
+        }
+        section:last-of-type{
+            width: 90%;
+            margin: auto;
+            float: none;
+        } 
+        section img{
+            max-width: 100%;
+        }
+}
+@media (min-width: 680px) {
+        body{
+            width: 90%;
+            margin: auto;
+        }
+        .telaMd, .telaPq{
+            display: none;
+        }
+        .telaGd{
+            display: block;
+        }
+        section, section:last-of-type{
+            width: 30%;
+            float: left;
+            margin: auto 1.5%;
+        }
+        section:last-of-type img{
+            padding-bottom: 21%;
+        } 
+        section img{
+            max-width: 100%;
+        }
+}

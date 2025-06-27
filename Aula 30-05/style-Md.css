@@ -1,0 +1,23 @@
+        body{
+            width: 90%;
+            margin: auto;
+        }
+        .telaGd, .telaPq{
+            display: none;
+        }
+        .telaMd{
+            display: block;
+        }
+        section{
+            width: 45%;
+            float: left;
+            margin: auto 2.5%;
+        }
+        section:last-of-type{
+            width: 90%;
+            margin: auto;
+            float: none;
+        } 
+        section img{
+            max-width: 100%;
+        }
